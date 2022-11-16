@@ -1,0 +1,21 @@
+.button {
+   color: #FFFFFF;
+   font-weight: 500;
+   font-size: 18px;
+   letter-spacing: 0.02em;
+   padding: 15px 30px;
+   background-color: #2E8B57;
+   border-radius: 5px;
+   border: 1px solid #2E8B57;
+   transition-duration: 0.3s;
+   &:active {
+      background-color: #90e9b7;
+   }
+   @media (min-width: 1024px) {
+      &:hover {
+         background-color: #d2e7db;
+         color: #2E8B57;
+         transition-duration: 0.3s;
+      }
+   }
+}
